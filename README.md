@@ -207,4 +207,4 @@ pip install -r requirements.txt
 
 ## Demo
 
-<video src="video/sensor_config_leak_localization.mp4" controls width="100%"></video>
+<video src="video/sensor_config_leak_localization_compressed.mp4" controls width="100%"></video>
