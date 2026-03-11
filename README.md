@@ -207,4 +207,4 @@ pip install -r requirements.txt
 
 ## Demo
 
-<video src="video/sensor_config_leak_localization_compressed.mp4" controls width="100%"></video>
+https://github.com/Marvin8or/optimal-placement-pressure-sensors/raw/main/video/sensor_config_leak_localization_compressed.mp4
