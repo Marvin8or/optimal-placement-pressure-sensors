@@ -206,5 +206,4 @@ pip install -r requirements.txt
    Opens an interactive scatter plot showing the localization rate of each sensor configuration.
 
 ## Demo
-
-https://github.com/Marvin8or/optimal-placement-pressure-sensors/raw/main/video/sensor_config_leak_localization_compressed.mp4
+![](sensor_config_leak_localization.gif)
