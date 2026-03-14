@@ -10,6 +10,9 @@ The approach works in three stages:
 2. **PSO-based Leak Localization** — For each candidate sensor configuration, a PSO optimizer ([Indago](https://pypi.org/project/Indago/)) minimises the mean-squared error between measured (pre-simulated) and PSO-generated pressure readings at the sensor nodes to locate the leak source.
 3. **Result Aggregation & Visualization** — Results across all configurations are collected and visualized to identify the best-performing sensor placements.
 
+## Demo
+![](sensor_config_leak_localization.gif)
+
 ## Network
 
 The approach was originally developed and validated on **Net1**, the classic [EPANET tutorial network](https://github.com/USEPA/EPANET2/blob/master/User_Manual/Net1.inp). Net1 is a small benchmark with 11 nodes, 1 reservoir, 1 tank, and 1 pump — ideal for rapid prototyping and verifying the pipeline end-to-end.
@@ -204,6 +207,3 @@ pip install -r requirements.txt
    ```
 
    Opens an interactive scatter plot showing the localization rate of each sensor configuration.
-
-## Demo
-![](sensor_config_leak_localization.gif)
